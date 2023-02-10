@@ -1,0 +1,16 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+jpa:
+  hibernate:
+    ddl-auto: create
+  datasource:
+    url: "jdbc:mysql://mysql-sextoys.alwaysdata.net"
+    username: "sextoys_root"
+    password: "Sextoys2023!"
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+

@@ -1,0 +1,12 @@
+com/example/sextoysback/service/impl/CatalogueServiceImpl.class
+com/example/sextoysback/ws/ProductController.class
+com/example/sextoysback/service/impl/ProductServiceImpl.class
+com/example/sextoysback/repository/CatalogueRepository.class
+com/example/sextoysback/service/CatalogueService.class
+com/example/sextoysback/ws/ApiRegistration.class
+com/example/sextoysback/service/ProductService.class
+com/example/sextoysback/SextoysBackApplication.class
+com/example/sextoysback/pojo/Catalogue.class
+com/example/sextoysback/ws/CatalogueController.class
+com/example/sextoysback/repository/ProductRepository.class
+com/example/sextoysback/pojo/Product.class

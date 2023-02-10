@@ -1,0 +1,12 @@
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/repository/ProductRepository.java
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/repository/CatalogueRepository.java
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/SextoysBackApplication.java
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/service/impl/ProductServiceImpl.java
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/ws/ProductController.java
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/service/CatalogueService.java
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/service/impl/CatalogueServiceImpl.java
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/ws/ApiRegistration.java
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/pojo/Product.java
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/ws/CatalogueController.java
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/service/ProductService.java
+/Users/mathieulenoir/IdeaProjects/Java/projetProgAvancee_back/src/main/java/com/example/sextoysback/pojo/Catalogue.java
