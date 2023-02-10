@@ -1,9 +1,12 @@
 package com.example.sextoysback.ws;
 
+import com.example.sextoysback.pojo.Catalogue;
 import com.example.sextoysback.pojo.Product;
 import com.example.sextoysback.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping(value = ApiRegistration.API_PRODUCT)
@@ -12,8 +15,8 @@ public class ProductController {
     @Autowired
     public ProductService productService;
 
-    @GetMapping("/hello1")
-    public String getHello(){
+    @GetMapping("/getAllProduct")
+    public List<Product> getAllProduct(){
         return productService.getAllProduct();
     }
 
@@ -23,18 +26,18 @@ public class ProductController {
     }
 
     @PutMapping ("/updateProduct/{id}")
-    public Product updateProductById(@PathVariable Long id){
-        return productService.updateProduct(id);
+    public Product updateProductById(@PathVariable Long id, @RequestBody Product product){
+        return productService.updateProduct(id, product);
     }
 
     @PostMapping ("/createProduct")
-    public boolean createNewProduct(){
-        return productService.createProduct();
+    public void createNewProduct(@RequestBody Product product){
+        productService.createProduct(product);
     }
 
     @DeleteMapping ("/deleteProduct/{id}")
-    public boolean deleteProductById(@PathVariable Long id){
-        return productService.deleteProduct(id);
+    public void deleteProductById(@PathVariable Long id){
+        productService.deleteProduct(id);
     }
 
 }
