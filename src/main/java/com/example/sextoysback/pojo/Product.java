@@ -19,6 +19,7 @@ public class Product {
     private Long id;
     private Long catalogue_id;
     private String name;
+    @Lob
     private String image;
     private Date release_date;
     private Long width;
